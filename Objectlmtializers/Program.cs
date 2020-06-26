@@ -6,23 +6,28 @@ namespace Objectlmtializers
     {
         static void Main(string[] args)
         {
-            //create object Point by adding inf by hand
-            Point firstPoint = new Point();
-            firstPoint.X = 10;
-            firstPoint.Y = 20;
-            firstPoint.DisplayStats();
+            //call a more interesting special constructor with initialization sintax
+            Point goldPoint = new Point(PointColor.Gold) { X = 90, Y = 20 };
+            goldPoint.DisplayStats();
 
-            //create new object Point by using special costructor
+            Rectangle myRect = new Rectangle
+            {
+                TopLeft = new Point { X = 10, Y = 10},
+                BottomRight = new Point {X = 200, Y = 200 }
+            };
 
-            Point secondPoint = new Point(30 , 40);
-            secondPoint.DisplayStats();
+            //traditional method
+            Rectangle r = new Rectangle();
+            Point p1 = new Point();
+            p1.X = 10;
+            p1.Y = 10;
+            r.TopLeft = p1;
+            Point p2 = new Point();
+            p2.X = 200;
+            p2.Y = 200;
+            r.BottomRight = p2;
 
-            //Create a Point object using the object initialization syntax.
 
-            Point thirdPoint = new Point { X = 40, Y = 50 };
-            thirdPoint.DisplayStats();
-
-            Console.Read();
         }
     }
 }
