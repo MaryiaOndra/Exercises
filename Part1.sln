@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicDataTipes", "BasicData
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringData", "StringData\StringData.csproj", "{7F175843-B475-4A5B-A346-4CC12DC33646}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesPartTwo", "ClassesPartTwo\ClassesPartTwo.csproj", "{802E2006-5DB5-4D3C-9455-7474E3FA01DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassesPartTwo", "ClassesPartTwo\ClassesPartTwo.csproj", "{802E2006-5DB5-4D3C-9455-7474E3FA01DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoProps", "AutoProps\AutoProps.csproj", "{B1B2B2EE-99FC-46D4-BC34-A8C21200FC71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoProps", "AutoProps\AutoProps.csproj", "{B1B2B2EE-99FC-46D4-BC34-A8C21200FC71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Objectlmtializers", "Objectlmtializers\Objectlmtializers.csproj", "{C9688156-34FF-4AB4-8EC2-1961A9EF8EDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B1B2B2EE-99FC-46D4-BC34-A8C21200FC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1B2B2EE-99FC-46D4-BC34-A8C21200FC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1B2B2EE-99FC-46D4-BC34-A8C21200FC71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9688156-34FF-4AB4-8EC2-1961A9EF8EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9688156-34FF-4AB4-8EC2-1961A9EF8EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9688156-34FF-4AB4-8EC2-1961A9EF8EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9688156-34FF-4AB4-8EC2-1961A9EF8EDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

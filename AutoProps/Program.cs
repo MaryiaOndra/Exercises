@@ -23,15 +23,21 @@ namespace AutoProps
             Console.WriteLine($"Number of cars in garage : {garage.NumberOfCars}");
             Console.WriteLine($"Your car is named: {garage.MyAuto.PetName}");
 
+            Car b = new Car();
+            b.DisplayStats();
+
+            Garage garage1 = new Garage(b, 2);
+            Console.WriteLine($"{garage1.MyAuto.PetName}");
+
             Console.Read();
         }
     }
 
     class Car
     {
-        public string PetName { get; set; }
-        public int Speed { get; set; }
-        public string Color { get; set; }
+        public string PetName { get; set; } = "Jo";
+        public int Speed { get; set; } = 300;
+        public string Color { get; set; } = "Blue";
 
         public void DisplayStats() 
         {
