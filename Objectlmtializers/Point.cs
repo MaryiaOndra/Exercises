@@ -30,5 +30,6 @@ namespace Objectlmtializers
             Console.WriteLine($"{X},  {Y}");
             Console.WriteLine($"Point is {Color}");
         }
+
     }
 }
