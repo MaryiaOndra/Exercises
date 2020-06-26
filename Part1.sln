@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training", "Training\Training.csproj", "{72539C4B-3D8C-47AA-9B4E-A061DD3FDCCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Training", "Training\Training.csproj", "{72539C4B-3D8C-47AA-9B4E-A061DD3FDCCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicDataTipes", "BasicDataTipes\BasicDataTipes.csproj", "{4B0C0EFA-30DE-498B-9DAB-B20B5A13866D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicDataTipes", "BasicDataTipes\BasicDataTipes.csproj", "{4B0C0EFA-30DE-498B-9DAB-B20B5A13866D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringData", "StringData\StringData.csproj", "{7F175843-B475-4A5B-A346-4CC12DC33646}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringData", "StringData\StringData.csproj", "{7F175843-B475-4A5B-A346-4CC12DC33646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesPartTwo", "ClassesPartTwo\ClassesPartTwo.csproj", "{802E2006-5DB5-4D3C-9455-7474E3FA01DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoProps", "AutoProps\AutoProps.csproj", "{B1B2B2EE-99FC-46D4-BC34-A8C21200FC71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{7F175843-B475-4A5B-A346-4CC12DC33646}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F175843-B475-4A5B-A346-4CC12DC33646}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F175843-B475-4A5B-A346-4CC12DC33646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{802E2006-5DB5-4D3C-9455-7474E3FA01DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802E2006-5DB5-4D3C-9455-7474E3FA01DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802E2006-5DB5-4D3C-9455-7474E3FA01DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802E2006-5DB5-4D3C-9455-7474E3FA01DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B2B2EE-99FC-46D4-BC34-A8C21200FC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B2B2EE-99FC-46D4-BC34-A8C21200FC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B2B2EE-99FC-46D4-BC34-A8C21200FC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B2B2EE-99FC-46D4-BC34-A8C21200FC71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
