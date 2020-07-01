@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoProps", "AutoProps\Auto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Objectlmtializers", "Objectlmtializers\Objectlmtializers.csproj", "{C9688156-34FF-4AB4-8EC2-1961A9EF8EDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training.OOP", "Training.OOP\Training.OOP.csproj", "{08A20DBD-EB1E-488E-9886-291D46A55BE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Training.OOP", "Training.OOP\Training.OOP.csproj", "{08A20DBD-EB1E-488E-9886-291D46A55BE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fun with Shapes from lecture", "Fun with Shapes from lecture\Fun with Shapes from lecture.csproj", "{6E5956CE-6713-4623-AAD5-0F09F71EEF01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{08A20DBD-EB1E-488E-9886-291D46A55BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08A20DBD-EB1E-488E-9886-291D46A55BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08A20DBD-EB1E-488E-9886-291D46A55BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5956CE-6713-4623-AAD5-0F09F71EEF01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5956CE-6713-4623-AAD5-0F09F71EEF01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5956CE-6713-4623-AAD5-0F09F71EEF01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5956CE-6713-4623-AAD5-0F09F71EEF01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

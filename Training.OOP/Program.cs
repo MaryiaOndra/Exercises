@@ -6,7 +6,7 @@ namespace Training.OOP
     {
         static void Main(string[] args)
         {
-            Shape[] shapes = new Shape[3];
+            Shape[] shapes = {new Circle(), new Square(), new   };
 
             Shape circle = new Circle(25);
             Shape square = new Square(15);
