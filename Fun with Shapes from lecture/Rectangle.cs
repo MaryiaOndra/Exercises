@@ -8,14 +8,12 @@ namespace Fun_with_Shapes_from_lecture
     {
         private int Side { get; set; }
 
-
         public Rectangle()
         {
             Side = new Random().Next(1, 10);
-            Name = "Rectangle";
         }
 
-        public override double Square()
+        public override int Square()
         {
             return Side * Side;
         }

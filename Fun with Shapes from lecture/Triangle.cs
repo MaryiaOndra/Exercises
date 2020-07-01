@@ -13,10 +13,9 @@ namespace Fun_with_Shapes_from_lecture
         {
             Side = new Random().Next(1, 10);
             Height = new Random().Next(1, 10);
-            Name = "Triangle";
         }
 
-        public override double Square()
+        public override int Square()
         {
             return Height * Side / 2;
         }

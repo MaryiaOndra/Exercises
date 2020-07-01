@@ -12,12 +12,11 @@ namespace Fun_with_Shapes_from_lecture
         public Circle()
         {
             Radius = new Random().Next(1, 10);
-            Name = "Circle";
         }
 
-        public override double Square()
+        public override int Square()
         {
-            return Radius * Math.PI; 
+            return (int)(Radius * Math.PI); 
         }
     }
 }

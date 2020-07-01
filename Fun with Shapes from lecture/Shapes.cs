@@ -6,9 +6,6 @@ namespace Fun_with_Shapes_from_lecture
 {
     abstract class Shapes
     {
-        internal string Name;
-
-        Random random = new Random();
-        public abstract  double Square();
+        public abstract int Square();
     }
 }
