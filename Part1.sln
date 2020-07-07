@@ -19,15 +19,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Training.OOP", "Training.OO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun with Shapes from lecture", "Fun with Shapes from lecture\Fun with Shapes from lecture.csproj", "{6E5956CE-6713-4623-AAD5-0F09F71EEF01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithInterface", "FunWithInterface\FunWithInterface.csproj", "{D4348550-FA99-4DE6-AEFA-0AC23DDB13D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithInterface", "FunWithInterface\FunWithInterface.csproj", "{D4348550-FA99-4DE6-AEFA-0AC23DDB13D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithStatic", "FunWithStatic\FunWithStatic.csproj", "{1975D2D5-AD00-4247-8360-E53F52C9E373}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithStatic", "FunWithStatic\FunWithStatic.csproj", "{1975D2D5-AD00-4247-8360-E53F52C9E373}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithStructures", "FunWithStructures\FunWithStructures.csproj", "{744DADAC-A8DC-4AF3-86C6-7D111B4FC5B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithStructures", "FunWithStructures\FunWithStructures.csproj", "{744DADAC-A8DC-4AF3-86C6-7D111B4FC5B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueAndReferenceTypes", "ValueAndReferenceTypes\ValueAndReferenceTypes.csproj", "{81FB12B8-4503-475D-A2B0-FE4CF3CCA01A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueAndReferenceTypes", "ValueAndReferenceTypes\ValueAndReferenceTypes.csproj", "{81FB12B8-4503-475D-A2B0-FE4CF3CCA01A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithEnums", "FunWithEnums\FunWithEnums.csproj", "{4CEE6675-46BD-458C-9A6C-B3C0E9DE72DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithEnums", "FunWithEnums\FunWithEnums.csproj", "{4CEE6675-46BD-458C-9A6C-B3C0E9DE72DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithDynamicAndAnonimus", "FunWithDynamicAndAnonimus\FunWithDynamicAndAnonimus.csproj", "{4BFE12D0-089E-40E8-A2A2-FD2D8EA30E82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicKeyword", "DynamicKeyword\DynamicKeyword.csproj", "{95B27E51-2497-4195-A537-2479391687F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{4CEE6675-46BD-458C-9A6C-B3C0E9DE72DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CEE6675-46BD-458C-9A6C-B3C0E9DE72DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CEE6675-46BD-458C-9A6C-B3C0E9DE72DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFE12D0-089E-40E8-A2A2-FD2D8EA30E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFE12D0-089E-40E8-A2A2-FD2D8EA30E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFE12D0-089E-40E8-A2A2-FD2D8EA30E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFE12D0-089E-40E8-A2A2-FD2D8EA30E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B27E51-2497-4195-A537-2479391687F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B27E51-2497-4195-A537-2479391687F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B27E51-2497-4195-A537-2479391687F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B27E51-2497-4195-A537-2479391687F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
