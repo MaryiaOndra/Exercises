@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Objectlmtializers", "Object
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Training.OOP", "Training.OOP\Training.OOP.csproj", "{08A20DBD-EB1E-488E-9886-291D46A55BE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fun with Shapes from lecture", "Fun with Shapes from lecture\Fun with Shapes from lecture.csproj", "{6E5956CE-6713-4623-AAD5-0F09F71EEF01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun with Shapes from lecture", "Fun with Shapes from lecture\Fun with Shapes from lecture.csproj", "{6E5956CE-6713-4623-AAD5-0F09F71EEF01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithInterface", "FunWithInterface\FunWithInterface.csproj", "{D4348550-FA99-4DE6-AEFA-0AC23DDB13D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{6E5956CE-6713-4623-AAD5-0F09F71EEF01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E5956CE-6713-4623-AAD5-0F09F71EEF01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E5956CE-6713-4623-AAD5-0F09F71EEF01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4348550-FA99-4DE6-AEFA-0AC23DDB13D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4348550-FA99-4DE6-AEFA-0AC23DDB13D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4348550-FA99-4DE6-AEFA-0AC23DDB13D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4348550-FA99-4DE6-AEFA-0AC23DDB13D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
