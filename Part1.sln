@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithInterface", "FunWith
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithStatic", "FunWithStatic\FunWithStatic.csproj", "{1975D2D5-AD00-4247-8360-E53F52C9E373}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithStructures", "FunWithStructures\FunWithStructures.csproj", "{744DADAC-A8DC-4AF3-86C6-7D111B4FC5B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueAndReferenceTypes", "ValueAndReferenceTypes\ValueAndReferenceTypes.csproj", "{81FB12B8-4503-475D-A2B0-FE4CF3CCA01A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{1975D2D5-AD00-4247-8360-E53F52C9E373}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1975D2D5-AD00-4247-8360-E53F52C9E373}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1975D2D5-AD00-4247-8360-E53F52C9E373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{744DADAC-A8DC-4AF3-86C6-7D111B4FC5B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744DADAC-A8DC-4AF3-86C6-7D111B4FC5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744DADAC-A8DC-4AF3-86C6-7D111B4FC5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744DADAC-A8DC-4AF3-86C6-7D111B4FC5B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81FB12B8-4503-475D-A2B0-FE4CF3CCA01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81FB12B8-4503-475D-A2B0-FE4CF3CCA01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81FB12B8-4503-475D-A2B0-FE4CF3CCA01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81FB12B8-4503-475D-A2B0-FE4CF3CCA01A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
