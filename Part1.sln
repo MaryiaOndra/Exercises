@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun with Shapes from lectur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithInterface", "FunWithInterface\FunWithInterface.csproj", "{D4348550-FA99-4DE6-AEFA-0AC23DDB13D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithStatic", "FunWithStatic\FunWithStatic.csproj", "{1975D2D5-AD00-4247-8360-E53F52C9E373}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{D4348550-FA99-4DE6-AEFA-0AC23DDB13D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4348550-FA99-4DE6-AEFA-0AC23DDB13D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4348550-FA99-4DE6-AEFA-0AC23DDB13D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1975D2D5-AD00-4247-8360-E53F52C9E373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1975D2D5-AD00-4247-8360-E53F52C9E373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1975D2D5-AD00-4247-8360-E53F52C9E373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1975D2D5-AD00-4247-8360-E53F52C9E373}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
