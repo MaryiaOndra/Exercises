@@ -29,9 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueAndReferenceTypes", "V
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithEnums", "FunWithEnums\FunWithEnums.csproj", "{4CEE6675-46BD-458C-9A6C-B3C0E9DE72DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithDynamicAndAnonimus", "FunWithDynamicAndAnonimus\FunWithDynamicAndAnonimus.csproj", "{4BFE12D0-089E-40E8-A2A2-FD2D8EA30E82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithDynamicAndAnonimus", "FunWithDynamicAndAnonimus\FunWithDynamicAndAnonimus.csproj", "{4BFE12D0-089E-40E8-A2A2-FD2D8EA30E82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicKeyword", "DynamicKeyword\DynamicKeyword.csproj", "{95B27E51-2497-4195-A537-2479391687F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicKeyword", "DynamicKeyword\DynamicKeyword.csproj", "{95B27E51-2497-4195-A537-2479391687F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousMethods", "AnonymousMethods\AnonymousMethods.csproj", "{CA1938B8-8481-4070-B530-28E8F7586C87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{95B27E51-2497-4195-A537-2479391687F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95B27E51-2497-4195-A537-2479391687F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95B27E51-2497-4195-A537-2479391687F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1938B8-8481-4070-B530-28E8F7586C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1938B8-8481-4070-B530-28E8F7586C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1938B8-8481-4070-B530-28E8F7586C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1938B8-8481-4070-B530-28E8F7586C87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

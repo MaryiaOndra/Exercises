@@ -33,7 +33,7 @@ namespace AutoProps
         }
     }
 
-    class Car
+    internal class Car
     {
         public string PetName { get; set; } = "Jo";
         public int Speed { get; set; } = 300;
