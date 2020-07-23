@@ -35,9 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicKeyword", "DynamicKe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnonymousMethods", "AnonymousMethods\AnonymousMethods.csproj", "{CA1938B8-8481-4070-B530-28E8F7586C87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithExtension", "FunWithExtension\FunWithExtension.csproj", "{B58DA0F3-5EF8-42EC-BFCC-7F66E5850226}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithExtension", "FunWithExtension\FunWithExtension.csproj", "{B58DA0F3-5EF8-42EC-BFCC-7F66E5850226}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithCollections", "FunWithCollections\FunWithCollections.csproj", "{92A80B48-D465-474B-B6C8-2218F16756D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithCollections", "FunWithCollections\FunWithCollections.csproj", "{92A80B48-D465-474B-B6C8-2218F16756D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fun with delegate", "Fun with delegate\Fun with delegate.csproj", "{AFB5B7B3-F82F-4FF2-9BD8-02CE028AD839}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{92A80B48-D465-474B-B6C8-2218F16756D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92A80B48-D465-474B-B6C8-2218F16756D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92A80B48-D465-474B-B6C8-2218F16756D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFB5B7B3-F82F-4FF2-9BD8-02CE028AD839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFB5B7B3-F82F-4FF2-9BD8-02CE028AD839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFB5B7B3-F82F-4FF2-9BD8-02CE028AD839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFB5B7B3-F82F-4FF2-9BD8-02CE028AD839}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
