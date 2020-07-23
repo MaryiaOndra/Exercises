@@ -15,7 +15,12 @@ namespace Fun_with_delegate
             //say to Car what method he shoud call to send a message
             c1.RegisterWithCarEngine(new Car.CarEngineHandler(OnCarEngineEvent));
 
-            c1.RegisterWithCarEngine(new Car.CarEngineHandler(OnCarEngineEvent2));
+            //save delegate object to cancel registration in future
+            Car.CarEngineHandler handler2 = new Car.CarEngineHandler(OnCarEngineEvent2);
+            c1.RegisterWithCarEngine(handler2);
+
+            //cancel registr 2nd worker
+            c1.UnRegisterWithCarEngine(handler2);
 
             //increase speed
             Console.WriteLine("******Speeding up******");
