@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActionAndFuncDelegates", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLambdaExpressions", "SimpleLambdaExpressions\SimpleLambdaExpressions.csproj", "{43743786-904D-48C2-8DF7-19DE46A30FFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressionsMultipleParams", "LambdaExpressionsMultipleParams\LambdaExpressionsMultipleParams.csproj", "{AFCF453E-3BEA-45A1-8D68-25B460153189}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{43743786-904D-48C2-8DF7-19DE46A30FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43743786-904D-48C2-8DF7-19DE46A30FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43743786-904D-48C2-8DF7-19DE46A30FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFCF453E-3BEA-45A1-8D68-25B460153189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFCF453E-3BEA-45A1-8D68-25B460153189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFCF453E-3BEA-45A1-8D68-25B460153189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFCF453E-3BEA-45A1-8D68-25B460153189}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
