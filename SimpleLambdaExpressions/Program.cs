@@ -34,5 +34,42 @@ namespace SimpleLambdaExpressions
         {
             return (i % 2).Equals(0);
         }
+
+        static void AnonymousMethodSynta()
+        {
+            List<int> list = new List<int>();
+
+            list.AddRange(new int[] { 20, 1, 5, 879, 54, 21, 3, 4 });
+
+            List<int> evenNumbers = list.FindAll(delegate (int i)
+            { return (i % 2) == 0; });
+
+            Console.WriteLine("Here are your even numbers:");
+
+            foreach (int evenNum in evenNumbers)
+            {
+                Console.WriteLine("{0}\t", evenNum);
+            }
+
+            Console.WriteLine();
+        }
+
+        static void LambdaExpressionSyntax() 
+        {
+            List<int> list = new List<int>();
+
+            list.AddRange(new int[] {2, 50, 87, 231, 54, 21321, 54654, 8748, 46 });
+
+            List<int> evenNumbers = list.FindAll(i => (i % 2) == 0);
+
+            Console.WriteLine("Here are your even numbers:");
+
+            foreach (int evenNum in evenNumbers)
+            {
+                Console.WriteLine("{0} is even\t", evenNum);
+            }
+            Console.WriteLine();
+        }
     }
+
 }
